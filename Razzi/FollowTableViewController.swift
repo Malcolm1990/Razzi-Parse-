@@ -22,7 +22,7 @@ class FollowTableViewController: UITableViewController, UISearchResultsUpdating 
     var followSearchController = UISearchController()
     
     
-    override func viewDidLoad() {
+    override func viewDidLoad() { 
         super.viewDidLoad()
         
         let alertMessage = UIAlertView(title: "Follow Tab", message: "Search for a user in the search bar, then tap their name to follow them", delegate: self, cancelButtonTitle: "OK")

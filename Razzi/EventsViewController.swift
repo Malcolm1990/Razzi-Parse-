@@ -19,7 +19,7 @@ class EventsViewController: UIViewController, UIImagePickerControllerDelegate, U
         let alertMessage = UIAlertView(title: "Events Tab", message: "Take a photo then request it to a user", delegate: self, cancelButtonTitle: "OK")
         alertMessage.show()
     
-    }
+    } 
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

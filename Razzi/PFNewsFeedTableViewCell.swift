@@ -15,7 +15,7 @@ class PFNewsFeedTableViewCell: PFTableViewCell {
     //Connects UI to code
     @IBOutlet weak var pFNewsFeedView: PFImageView!
     @IBOutlet weak var userLabel: UILabel!
-    @IBOutlet weak var submitterLabel: UILabel!
+    @IBOutlet weak var submitterLabel: UILabel! 
     
     /*
     // Only override drawRect: if you perform custom drawing.

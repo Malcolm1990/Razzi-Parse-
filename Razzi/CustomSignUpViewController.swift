@@ -107,7 +107,7 @@ class CustomSignUpViewController: UIViewController {
                     
                     //show success message
                     let alert = UIAlertView(title: "Success", message: "Signed Up", delegate: self,    cancelButtonTitle: "OK")
-                    alert.show()
+                    alert.show() 
                     
                     //takes the user back to the login screen
                     self.performSegueWithIdentifier("go back", sender: self)                    

@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.setApplicationId("2SAaMEQ4p1hkfMlxN2CxfA6ewscbRtWxVIRMlcHS", clientKey: "aK44qCx6dSmeWn2DhKUkg3oqpEn4Eny1Mh6u1F81")
         
-        //changes all view controller status bars to white after adding "View controller-based status bar appearance" in info.plist to "NO"
+        //changes all view controller status bars to white after adding "View controller-based status bar appearance" in info.plist to "NO" 
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         
         
