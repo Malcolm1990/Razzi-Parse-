@@ -103,7 +103,7 @@ class CustomSignUpViewController: UIViewController {
                     alert.show()
                 }
                 //if no error
-                else {
+                else { 
                     
                     //show success message
                     let alert = UIAlertView(title: "Success", message: "Signed Up", delegate: self,    cancelButtonTitle: "OK")

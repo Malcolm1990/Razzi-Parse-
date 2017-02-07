@@ -19,7 +19,7 @@ class FollowTableViewController: UITableViewController, UISearchResultsUpdating 
     
     var filteredUsernamesArray = [String]()
     
-    var followSearchController = UISearchController()
+    var followSearchController = UISearchController() 
     
     
     override func viewDidLoad() { 

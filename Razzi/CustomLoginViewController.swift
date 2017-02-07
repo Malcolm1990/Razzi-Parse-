@@ -13,11 +13,11 @@ class CustomLoginViewController: UIViewController {
     
     //Connects the UI to the code
     @IBOutlet weak var usernameTextField: UITextField! 
-    @IBOutlet weak var passwordTextField: UITextField! 
+    @IBOutlet weak var passwordTextField: UITextField!  
     
     //Declares an activity spinner
     var activitySpinner: UIActivityIndicatorView = UIActivityIndicatorView(frame: CGRectMake(0, 0, 150, 150)) as UIActivityIndicatorView
-    
+     
     
     override func viewDidLoad() {
         super.viewDidLoad()

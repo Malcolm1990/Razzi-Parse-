@@ -19,7 +19,7 @@ class PFNewsFeedTableViewController: PFQueryTableViewController {
         let alertMessage = UIAlertView(title: "News Feed Tab", message: "This tab shows the photos from the users you follow", delegate: self, cancelButtonTitle: "OK")
         alertMessage.show() 
     }*/
-    
+     
     //Declare a query function
     override func queryForTable() -> PFQuery {
         
